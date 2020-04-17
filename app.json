@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "path": "pages/homePage/index",
+      "config": {
+        "navigationBarTitleText": "商家列表"
+      }
+    },
+    {
+      "path": "pages/homePage/restaurant",
+      "config": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "餐厅"
+      }
+    },
+    {
+      "path": "pages/myOrder/index",
+      "config": {
+        "navigationBarTitleText": "我的订单"
+      }
+    },
+    {
+      "path": "pages/collect/index",
+      "config": {
+        "navigationBarTitleText": "我的收藏"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#6A6A6A",
+    "selectedColor": "#080040",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "static/indexs.png",
+        "iconPath": "static/indexn.png",
+        "pagePath": "pages/homePage/index",
+        "text": "商家列表"
+      },
+      {
+        "selectedIconPath": "static/challenges.png",
+        "iconPath": "static/challengen.png",
+        "pagePath": "pages/myOrder/index",
+        "text": "我的订单"
+      },
+      {
+        "selectedIconPath": "static/ranks.png",
+        "iconPath": "static/rankn.png",
+        "pagePath": "pages/collect/index",
+        "text": "我的收藏"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于获取门店位置"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "惠商",
+    "navigationBarTextStyle": "black"
+  }
+}
